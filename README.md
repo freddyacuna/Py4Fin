@@ -1,12 +1,8 @@
-# Introducción a Python para las Finanzas
+# Introducción a Python para las Finanzas (Last Update: March 2022)
 
 ## Descripción del Curso
 
-Creado en 1991 por Guido van Rossum, Python sea ha vuelto uno de los lenguajes de programación favorito tanto en la academia como en la industria, esto se debe a su simple sintaxis y
-extensas (poderosas) librerías. El curso busca entregar las herramientas básicas para enfrentar
-problemas financieros y/o económicos. Entre los tópicos a discutir se encuentran: estructura de
-datos, control de flujo condicional, funciones, introducción a la librería NumPy, manipulación de
-datos con Pandas y series de tiempo.
+Creado en 1991 por Guido van Rossum, Python sea ha vuelto uno de los lenguajes de programación favorito tanto en la academia como en la industria, esto se debe a su simple sintaxis y extensas (poderosas) librerías. El curso busca entregar las herramientas básicas para enfrentar problemas financieros y/o económicos. Entre los tópicos a discutir se encuentran: estructura de datos, control de flujo condicional, funciones, introducción a la librería NumPy, manipulación de datos con Pandas y series de tiempo.
 
 ## Objetivos
 
@@ -20,8 +16,9 @@ datos con Pandas y series de tiempo.
 
 La nota final estará ponderada de la siguiente manera:
 
-* Tareas: 70% (máximo 2 integrantes)
-* Examen: 30% (incluye todo la materia del curso)
+* Tareas: 40% (máximo 2 integrantes)
+* Controles: 35%
+* Examen: 25% (incluye todo la materia del curso)
 
 ## Metodología
 
@@ -85,21 +82,48 @@ El curso se desarrollará a través de clases expositivas y ejercicios práctico
 7. Series de Tiempo
 
     + Estructuras de Datos de Series de tiempo en Pandas
+    + Datos de Alta Frecuencia
+    + Análisis de series de tiempo con Python
+    + Simulación de Montecarlo y *bootstraping*
     + *Resampling* y *Shifting* (Construcción Retornos)
     + *Rolling Window* y *Expanding Window*
     + Ejemplo: Portafolio *Equally Weighted* 
     + Ejemplo: Retorno Acumulado Geométrico 
-    
+ 
+8. Introducción a Machine Learning
+    + Introducción a librería Scikit-Learn
+    + Complejidad computacional
+    + Gradiente Descendiente
+    + Predicción vs. Clasificación
+
+9. Datos Geopaciales con GeoPandas
+
+    + Estructura de datos: GeoSeries y GeoDataframe
+    + Creación de mapas con visualización
+    + Manipulación geométrica (distancias, centroide, etc) y proyecciones  (WGS84, Mercator, etc)
+    + Ejemplo: Choropleth
+
+10. Dashboard interactivos con Dash
+
+    + *Callbacks* básicos
+    + Componentes
+    + Gráficos interactivos con *crossfiltering*, 
+    + *Deployment*
+
+
 ## Lecturas Recomendadas
 
 1. McKinney, Wes (2017). Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. "
 O’Reilly Media, Inc.".
 
-2. Ramalho, Luciano (2015). Fluent python: Clear, concise, and effective programming. " O’Reilly Media,
+2. Géron, Aurélien (2019). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow:
+Concepts, tools, and techniques to build intelligent systems. " O’Reilly Media, Inc.".
+
+3. Ramalho, Luciano (2015). Fluent python: Clear, concise, and effective programming. " O’Reilly Media,
 Inc.".
 
-3. Sheppard, Kevin (2019). “Introduction to Python for econometrics, statistics and data analysis’ ’.
+4. Sheppard, Kevin (2019). “Introduction to Python for econometrics, statistics and data analysis’ ’.
 In: Self-published, University of Oxford, version 3.
 
-4. VanderPlas, Jake (2016). Python data science handbook: Essential tools for working with data. " O’Reilly
+5. VanderPlas, Jake (2016). Python data science handbook: Essential tools for working with data. " O’Reilly
 Media, Inc.".
